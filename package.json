@@ -1,0 +1,17 @@
+{
+  "name": "backend-full-stack-api-devclub",
+  "version": "1.0.0",
+  "description": "DevBurger API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Carlos Henrique",
+    "url": "https://github.com/fariascarlos2346"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
