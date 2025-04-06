@@ -12,3 +12,7 @@
 <p>
   Conceitos sobre DOCKER e Criando o Primeiro container Docker.
 </p>
+<br>
+<p>
+  Estalando o SEQUELIZE, yarn add sequelize pg pg-store, e yarn add -D sequelize-cli que e a interface de linha de comando.
+</p>
