@@ -1,5 +1,6 @@
-const express = require('express'); //importando o EXPRESS
-const routes = require('./routes');
+import express from 'express'; //importando o EXPRESS
+import routes from './routes';
+
 
 class App {         //criando as CLASS e suas configurações
     constructor() {     //primeiro METODO
@@ -18,4 +19,4 @@ class App {         //criando as CLASS e suas configurações
     }
 }
 
-module.exports = new App().app;     //estanciando a CLASS e retornando o APP diretos.
+export default new App().app;     //estanciando a CLASS e retornando o APP diretos.
