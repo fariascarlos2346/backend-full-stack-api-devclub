@@ -19,5 +19,7 @@
 <p>
   Criando a primeira migration, que são arquivos onde colocamos as instruções
   para o banco de Dados, lida pelo sequelize, arquivos por arquivos, ler os campos um a um, faz alterações, tira e coloca campos no banco de dados.
-  Magration criado com id unico.
+  Magration criado com id unico. com dois medodos, up de criar e o down para deletar.
+  <br>
+  Primeira campo criado de ID unico, campo de nome e email sendo o email unique 'unico'. Campo admin Boolean, verdadeiro ou falso, alem dos Campos para auditorias, created_at e o updated_at.
 </p>
