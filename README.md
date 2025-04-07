@@ -16,3 +16,8 @@
 <p>
   Estalando o SEQUELIZE, yarn add sequelize pg pg-store, e yarn add -D sequelize-cli que e a interface de linha de comando.
 </p>
+<p>
+  Criando a primeira migration, que são arquivos onde colocamos as instruções
+  para o banco de Dados, lida pelo sequelize, arquivos por arquivos, ler os campos um a um, faz alterações, tira e coloca campos no banco de dados.
+  Magration criado com id unico.
+</p>
