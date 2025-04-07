@@ -23,3 +23,8 @@
   <br>
   Primeira campo criado de ID unico, campo de nome e email sendo o email unique 'unico'. Campo admin Boolean, verdadeiro ou falso, alem dos Campos para auditorias, created_at e o updated_at.
 </p>
+<p>
+  Criando Model do Usuário, e a Interface que se comunica com o Banco de Dados, com seus Campos e Metodos existentes na tabela. Arquivo 'user' criado para criar um Class.
+  <br>
+  Model de User criado que Mapeia o que temos no Banco de Dados.
+</p>
