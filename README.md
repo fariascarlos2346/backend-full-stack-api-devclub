@@ -1,5 +1,8 @@
 <h1>PROJETO BACK END AMBURGUERIA NO DEVCLUB FULL STACK</h1>
-<p>Iniciei o Projeto estalando Yarn, Instalando Nodemon e Sucrase. </p>
+<p>Iniciei o Projeto estalando Yarn, Instalando Nodemon e Sucrase. 
+<br>
+  Para rodar nossa aplicação usamos o comando 'yarn dev'.
+</p>
 <p>
   MVC 
   <br>
@@ -26,5 +29,8 @@
 <p>
   Criando Model do Usuário, e a Interface que se comunica com o Banco de Dados, com seus Campos e Metodos existentes na tabela. Arquivo 'user' criado para criar um Class.
   <br>
-  Model de User criado que Mapeia o que temos no Banco de Dados.
+  Model de User criado que Mapeia o que temos no Banco de Dados. Estalando mais um  pacote 'UUID'.
+  <br>
+  Já estamos conseguindo Persistir os dados no Banco Beekeeper.
+
 </p>

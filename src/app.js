@@ -1,6 +1,8 @@
 import express from 'express'; //importando o EXPRESS
 import routes from './routes';
 
+import './database';
+
 
 class App {         //criando as CLASS e suas configurações
     constructor() {     //primeiro METODO

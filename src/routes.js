@@ -1,9 +1,20 @@
 import { Router } from 'express';
+import { v4 } from 'uuid';
+
+import User from './app/models/User';
 
 const routes = new Router();
 
-routes.get('/', (request, response) => {    //rota criada
-    return response.status(200).json({ message: 'Hello World! Carlos H. e Bia'})
+routes.get('/', async (request, response) => {    
+   const user = await User.create({
+      id: v4(),
+      name: 'Carlos1',
+      email: 'carlos1@email.com',
+      password_hash:  'asdflkjasdfasdf',
+   });
+
+   return response.status(201).json(user);
 });
+ 
 
 export default routes;
