@@ -32,5 +32,7 @@
   Model de User criado que Mapeia o que temos no Banco de Dados. Estalando mais um  pacote 'UUID'.
   <br>
   Já estamos conseguindo Persistir os dados no Banco Beekeeper.
+  <br>
+  Criado Controller de Usuário, validando informações e só deixar informações que não são importantes. Validando dados com YUP, 
 
 </p>
