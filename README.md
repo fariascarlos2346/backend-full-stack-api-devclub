@@ -33,6 +33,6 @@
   <br>
   Já estamos conseguindo Persistir os dados no Banco Beekeeper.
   <br>
-  Criado Controller de Usuário, validando informações e só deixar informações que não são importantes. Validando dados com YUP, 
+  Criado Controller de Usuário, validando informações e só deixar informações que não são importantes. Validando dados com YUP, validando os dados de entrada, não permitindo dados duplicados,
 
 </p>
